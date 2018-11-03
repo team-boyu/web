@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.js"></script>	
+		<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>		
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+			}
+/*****top-bar*****/
+            .navbar-ct{width:100%;}
+/*****header*****/
+			
+			.header {
+				width: 100%;
+				height: 126px;
+				margin: 5% 0;
+			}
+			
+			.header-ct {
+				width: 1224px;
+				height: auto;
+				margin: 1% auto;
+			}
+			
+			.header-left {
+				float: left;
+			}
+			
+			.header-right {
+				width: auto;
+				height: 126px;
+				float: right;
+			}
+			
+			.header-right ul {
+				margin: 5% 0;
+			}
+			
+			.header-right ul li {
+				width: 100px;
+				height: 21px;
+				text-align: center;
+				background: #f1eded;
+				margin: 2px 0;
+			}
+/*****轮播****/
+			
+			.demo-ct {
+				width: 1224px;
+				height: 100%;
+				margin: 1% auto;
+			}
+			.carousel-inner img {
+				width: 100%;
+				height: 100%;
+				margin: 0 auto;
+			}
+			
+			.carousel slide {
+				width: 1224px;
+				height: 100%;
+				margin: 0 auto;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+		
+      <div class="navbar-ct">
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+     </div>
+
+	
+
+
+		<div class="header">
+			<div class="header-ct">
+				<div class="header-left">
+					<img src="img/i_r1_c1.jpg">
+				</div>
+				<div class="header-right">
+					<ul>
+						<li>学校首页</li>
+						<li>书记信箱</li>
+						<li>学校信箱</li>
+						<li>学校地图</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="demo-ct">
+			<div id="demo" class="carousel slide" data-ride="carousel" style="width:1224px">
+
+				<!-- 指示符 -->
+				<ul class="carousel-indicators">
+					<li data-target="#demo" data-slide-to="0" class="active"></li>
+					<li data-target="#demo" data-slide-to="1"></li>
+					<li data-target="#demo" data-slide-to="2"></li>
+					<li data-target="#demo" data-slide-to="3"></li>
+					<li data-target="#demo" data-slide-to="4"></li>
+				</ul>
+
+				<!-- 轮播图片 -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/33.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="img/2017xiaoyuan01.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="img/19_1.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="img/2017xiaoyuan01.jpg">
+					</div>
+					<div class="carousel-item">
+						<img src="img/2017xiaoyuan01.jpg">
+					</div>
+				</div>
+
+				<!-- 左右切换按钮 -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+			</div>
+		</div>
+
+	</body>
+
+</html>
